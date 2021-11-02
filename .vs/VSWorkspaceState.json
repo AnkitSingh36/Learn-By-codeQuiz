@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Header",
+    "\\src\\components\\Question",
+    "\\src\\Data",
+    "\\src\\Pages",
+    "\\src\\Pages\\Home",
+    "\\src\\Pages\\Quiz",
+    "\\src\\Pages\\Result"
+  ],
+  "PreviewInSolutionExplorer": false
+}

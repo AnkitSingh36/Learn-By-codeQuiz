@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-learnbyquiz-dev-115007-authRole",
+      "UnauthRoleArn": "arn:aws:iam::445532780084:role/amplify-learnbyquiz-dev-115007-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::445532780084:role/amplify-learnbyquiz-dev-115007-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-learnbyquiz-dev-115007-deployment",
+      "UnauthRoleName": "amplify-learnbyquiz-dev-115007-unauthRole",
+      "StackName": "amplify-learnbyquiz-dev-115007",
+      "StackId": "arn:aws:cloudformation:us-east-2:445532780084:stack/amplify-learnbyquiz-dev-115007/4a3af570-3880-11ec-9f0e-066f5bf86c70",
+      "AmplifyAppId": "d1u06liiwzzm54"
+    },
+    "categories": {
+      "auth": {
+        "learnbyquiz158805e6": {}
+      }
+    }
+  }
+}
