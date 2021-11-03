@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, useHistory } from 'react-router-dom';
+import { HashRouter, Switch, Route, useHistory } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -39,7 +39,7 @@ function App() {
         })
         .catch(err => console.log(err));
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
           <div className="app" style={{ backgroundImage: "url(./ques1.png)" }}>
               <Header name={ currentUser }/>
                 <Switch>
@@ -68,7 +68,7 @@ function App() {
                 </Switch>
           </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
